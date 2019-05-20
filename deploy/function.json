@@ -13,6 +13,6 @@
     }
   ],
   "disabled": false,
-  "scriptFile": "../bin/azurefunctions.dll",
+  "scriptFile": "./bin/azurefunctions.dll",
   "entryPoint": "PI.Function.PSTestFunctionApp.Run"
 }
