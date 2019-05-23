@@ -54,7 +54,7 @@
     },
     "repoURL": {
       "type": "string",
-      "defaultValue": "https://github.com/karsundar/azurefunctions.git",
+      "defaultValue": "https://github.com/karsundar/deploy.git",
       "metadata": {
         "description": "The URL for the GitHub repository that contains the project to deploy."
       }
@@ -136,7 +136,7 @@
             },
             {
               "name": "PSAppKey",
-              "value": "variables('psAppKey')"
+              "value": "[variables('psAppKey')]"
             }
           ]
         }
